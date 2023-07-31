@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #e3f9ff;
+    display: flex;   /*madyalo vasthadi display+ alighn+justify */
+    align-items: center;
+    justify-content: center;
+}
+.calculator{   /*color black vasthadi*/
+background: #3a4452;
+padding: 20px;
+border-radius: 10px;
+}
+
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;  /*podugga avuthadi*/
+   height: 60px;
+   border-radius: 10px;
+   box-shadow: -8px -8px 15px rgba(255, 255, 255, -0.1), -5px -5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent; /* white totl black avthadi */
+   font-size: 20px;
+   color: #fff;  /* numbers white coolor*/
+   cursor: pointer; /*hand vasthadi*/
+   margin: 10px;   /* gap peddaga avuthadi*/
+
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+   text-align: right;  /* left cursor right ki vasthadi*/ 
+   flex: 1;  /* box addam peddaga vasthadi*/
+   font-size: 45px; /* numbers peddaga kanipistadi*/
+   box-shadow: none;  /* box kanapadadu*/
+
+}
+
+/* eppativaraku numbers touch chesthe raledu*/
+
+form input.equal{
+    width: 145px;  /* equal addanga peddaga avuthadi*/
+
+}
+
+form input.operator{  /* AC,   color change to blue*/
+    color: #33ffd8;
+
+
+
+
+}
+
+
+
